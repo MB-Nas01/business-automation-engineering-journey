@@ -10,6 +10,4 @@ Pain points: Step 1, the patient’s name is written three times: the record boo
 Step 2  and step 3 in case of emergency mean a patient collapsing or heavy bleeding, resulting in further medical complications. Step 4 involves manual file handling, which raises data privacy and security concerns. Also, the file can be damaged or go missing. Step 5 was supposed to be the only understandable waste of time in the queue, but due to compounded time wasted in the previous steps, it becomes more frustrating for the patients, especially when there is no automatic queue numbering, which brings about the possibility of queue shunting.
 
 
-Bottleneck analysis
-In the busy afternoon, the bottleneck is the doctors consultation room, because even when the records are automated, waiting do no change
-while in a less busy morning, bottleneck arises when the records are handled manually. 
+In a busy afternoon the doctor is the bottleneck. One consultation takes about 15 minutes, so a patient with 19 people ahead of them waits about 4 hours 45 minutes, however fast records works. In a quiet morning records is the bottleneck. A returning patient's folder search takes 30 minutes or more, which is longer than the 15-minute consultation, so the doctor sits idle waiting for the folder. The bottleneck moves with the number of patients.
