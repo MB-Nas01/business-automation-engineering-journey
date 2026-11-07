@@ -10,7 +10,7 @@ Step 5: The patient waits outside the consultation room for their name to be cal
   Solution: The service will be hosted entirely on a local network without involving internet for normal operation, but will have a dedicated server system for schedule reminder which will be cost effective because it does not require heavy networking equipment no resource intensive server setting, simple laptop with a router and modem. The laptop should not communicate back to the internal system, it only receives a reminder message, phone number or email of the patient and the date of the schedule such that it can forward the reminder as desired. with bulk SMS bundles as low as 6 naira, we see an estimated budget of 6000 naira monthly for 1000 SMS which is generous enough. 
  In case of power-cut, the system will be hosted on a two way power system, Solar/battery (backup power plan) and National grid with a low latency fall over ensuring a very negligible downtime. 
 
-TO_BE FLOW:
+## TO_BE FLOW:
 step 1: Patient get checked at front desk (New patient taking around 10 minutes for payment and record input and hospital number generation and printing of card, while returning get verified and forwarded to consultation in about 5 minutes) and for severity of case. 
 step 2. doctor queue list update as patient are cleared. 
 step 3. Doctor can update record and also be able to assign a revisit booking schedule that automatically send a reminder to the patient 24 hours before the due date (using either mail or SMS). 
