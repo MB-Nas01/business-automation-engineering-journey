@@ -25,7 +25,7 @@ The board shows queue numbers, not patient names, so people in the waiting area 
 
 ## To-be flow
 1. Front desk (cashier): search by name and phone for an existing record. If a match is genuine, link to it. If not, create a new record, take payment, generate the hospital number and print the card. New patient about 10 minutes, returning patient about 5.
-2. Front desk (nurse): check severity during the same visit. when there is emergency, emergencies go straight to treatment, and registration is completed afterwards for unconciuos patients.
+2. Front desk (nurse): check severity during the same visit. when there is emergency, emergencies go straight to treatment, and registration is completed afterwards for unconscious patients.
 3. System: the patient joins the doctor's queue automatically, and an attendant keeps the order fair.
 4. Consulting room (doctor): opens the record using the hospital number, consults, and updates the record.
 5. Doctor books a revisit. The reminder laptop sends an SMS 24 hours before.

@@ -1,6 +1,6 @@
-LANES AND HANDOFF
+##LANES AND HANDOFF
 
-#Your handoff counts in the new-patient path
+##Your handoff counts in the new-patient path
 
 1. Process start in Front Desk. No handoff.
 2. pay for hospital card: Front Desk to Patient. Handoff 1.
@@ -13,7 +13,8 @@ LANES AND HANDOFF
 9. Consult to the end event with patient leavin with prescription: Doctor to Patient. Handoff 6.
 
 
-#Your handoff counts in the returning-patient path
+## Handoff counts in the returning-patient path
+
 1. Start, then check if it is a new patient?: both in Front Desk. No handoff.
 2. Not a new patient, then verify returning patient: No handoff.
 3. After verified, refer patient to record: No handoff.
@@ -26,7 +27,7 @@ LANES AND HANDOFF
 New patient: 6. Returning patient: 4.
 
 
-#DANGEROUS HANDOFF
+##DANGEROUS HANDOFF
 For both returning and new patients, the dangerous handoff is handoff2 and 4 respectively, having folders move from record to consultation room, because that create posibilities for folder lost, damage and data privacy issues.  
 
 
