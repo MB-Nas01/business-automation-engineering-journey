@@ -14,7 +14,7 @@ LANES AND HANDOFF
 
 
 #Your handoff counts in the returning-patient path
-1. Start, then check if it is a new patient?”: both in Front Desk. No handoff.
+1. Start, then check if it is a new patient?: both in Front Desk. No handoff.
 2. Not a new patient, then verify returning patient: No handoff.
 3. After verified, refer patient to record: No handoff.
 4. search for patient folder: front desk to record. Handoff 1.
